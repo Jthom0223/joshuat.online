@@ -1,6 +1,6 @@
 ---
-title: Test Page 2
+title: Bio
 date: 2018-05-09 22:33:00 Z
 ---
 
-Test Page 2
+Hello, this is my bio page. I will include plenty of juicy details about my life and everything that makes me...well, me.
