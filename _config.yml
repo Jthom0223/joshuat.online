@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  user-experience:
+    title: User Experience
+    output: true
 defaults:
 - scope:
     path: ''
