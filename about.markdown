@@ -12,10 +12,10 @@ As far as hobbies are concerned, I enjoy basketball, reading, lifting, drawing, 
 
 ## Statistics
 
-Gender: Male
-Age: 20
-Height: 6'2"
-Weight: 195 lbs
-Arch-nemisis: Stuffing (aka The Turkey Violator)
-Childhood Fear: Bulldogs
-Favorite Color: Black, because it is most dominant and contains all other colors.
+- Gender: Male
+- Age: 20
+- Height: 6'2"
+- Weight: 195 lbs
+- Arch-nemisis: Stuffing (aka The Turkey Violator)
+- Childhood Fear: Bulldogs
+- Favorite Color: Black, because it is most dominant and contains all other colors.
