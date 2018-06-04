@@ -18,4 +18,4 @@ Height: 6'2"
 Weight: 195 lbs
 Arch-nemisis: Stuffing (aka The Turkey Violator)
 Childhood Fear: Bulldogs
-Favorite Color: Blue
+Favorite Color: Black, because it is most dominant and contains all other colors.
