@@ -1,0 +1,76 @@
+// Bulma Framework
+@import "bulma.min";
+
+// Helpers
+
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+
+// Your Styles
+html {
+  background: whitesmoke;
+}
+
+#top {
+  background: lightgray;
+  padding: 200px;
+}
+
+#name {
+  width: 200px;
+}
+
+.button {
+  width: 10rem; 
+  border: 0.15em solid white;
+}
+
+#personal-info {
+  background: grey;
+  padding: 100px;
+}
+
+#spotlight {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+// Resume
+
+.overview {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.skill {
+  padding-right: 10%;
+  margin-left: 7rem;
+}
+
+.education {
+  margin-top: 15px;  
+}
+
+// Contact Page
+.dm {
+  width: 50%;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,126 @@
+{% extends "_layout.njk" %}
+
+{% block content %}
+  <!--  Your Progressive Web App   -->
+
+
+    <section class="section-padding-large">
+        <div id="top" class="columns">
+          <div class="column">
+            <h1 id="name" class="column is-4 is-offset-8">Hello, My name is Joshua Thomas.</h1>
+            <a class="button center column is-rounded is-offset-8 is-danger is-inverted is-rounded is-outlined has-text-weight-bold">
+				    See Portfolio
+			      </a>
+          </div>
+        </div>
+    </section>
+    
+    <div id="personal-info" class="columns">
+      
+      <h1>Personal Info</h1>
+      <ul>
+        <li>Name: Joshua Thomas</li>
+        <li>Address: 1310 N Samantha Rd.</li>
+        <li>Phone Number: {{ site.phone }}</li>
+        <li>Email: {{ site.email }}</li>
+        <li>Favorite Color: Black, because it is most dominant and contains all other colors.</p>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>
+    
+    </div>
+
+    <section class="section center">
+      <h1>Spotlight</h1>
+    </section>
+
+    <div id="spotlight" class="columns">
+  <!-- Card 1 -->    
+      <div class="card column is-one-third">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">EWU UX Program Site</p>
+              <p class="subtitle is-6">Eastern Washington University</p>
+            </div>
+          </div>
+
+          <div class="content">
+            A more effective UI design that allows for UX students in the program to showcase their work, while also granting more info for perspective students.
+            <a href="#">#userinterfacedesign</a> <a href="#">#userexperience</a>
+            <br>
+            <time datetime="2017-3-1">Mar 2018</time>
+          </div>
+        </div>
+      </div>
+   <!-- Card 2 -->       
+      <div class="card column is-one-third">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Spokane City Guide</p>
+              <p class="subtitle is-6">Eastern Washington University</p>
+            </div>
+          </div>
+
+          <div class="content">
+            A city guide that sheds new light on the fair city of Spokane.
+            <a href="#">#graphicdesign</a> <a href="#">#thecityyoulovetohate</a>
+            <br>
+            <time datetime="2016-1-1">April 2018</time>
+          </div>
+        </div>
+      </div>
+  <!-- Card 3 -->        
+      <div class="card column is-one-third">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">John Smith</p>
+              <p class="subtitle is-6">@johnsmith</p>
+            </div>
+          </div>
+
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+            <a href="#">#css</a> <a href="#">#responsive</a>
+            <br>
+            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+{% endblock %}

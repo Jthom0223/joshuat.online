@@ -1,0 +1,71 @@
+{% extends "_layout.njk" %}
+
+{% block content %}
+
+ <section class="hero">
+  <div class="hero-body">
+    <div class="container center">
+      <h1 class="title">
+       {{ site.contact }}
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="container center">
+  <p class="subtitle has-text-centered">Call, text, send an email, beep, write a letter, or even send a message via horse drawn carraige. Whatever your method, here's the info you'll need to get a hold of me.</p>
+</section>
+
+<section class="container center has-text-centered">
+      <ul class="column">
+        <li>Phone Number: {{ site.phone }}</li>
+        <li>Email: {{ site.email }}</li>
+        <li>Address: 1310 N Samantha Rd. (for the horse drawn carriage)</li>
+      </ul>
+</section>
+
+ <section class="hero">
+  <div class="hero-body">
+    <div class="container center">
+      <h1 class="title">
+       Direct Message Me
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="container dm">
+  
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="e.g. Joe Mama">
+    </div>
+  </div>
+
+  <div class="field">
+    <label class="label">Email</label>
+    <p class="control">
+      <input class="input" type="email" placeholder="e.g. joemama34@gmail.com">
+    </p>
+  </div>
+
+  <div class="field">
+    <div class="label">
+      <label class="label">Message</label>
+    </div>
+    <div class="field-body">
+      <div class="field">
+        <div class="control">
+          <textarea class="textarea" placeholder="e.g. My name is Joe, I think your work is awesome! Let's work together."></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="control center">
+    <button class="button is-primary is-rounded">Submit</button>
+  </div>
+  
+</section>
+{% endblock %}

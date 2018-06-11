@@ -1,0 +1,36 @@
+<!-- Site Meta Data via Nunjucks -->
+ {% set site = {
+    
+        'title' : 'LeJIT Designs',
+        'email' : 'jthomas31@eagles.ewu.edu',
+        'twitter' : '@swoop',
+        'phone' : '509-270-0209',
+        'about' : 'About Me',
+        'ui' : 'UI/UX',
+        'webdesign' : 'Web Design',
+        'graphicdesign' : 'Graphic Design',
+        'contact' : 'Contact Me'
+    }
+ %}  
+
+<!DOCTYPE html>
+
+<html class="has-navbar-fixed-top">
+  
+  {% include "_includes/head.html" %}
+  
+  <body>
+    
+    {% include "_includes/nav.html" %}
+    
+    {% block content %}
+    
+    {% endblock %}
+    
+    {% include "_includes/footer.html" %} 
+
+    {% include "_includes/scripts.html" %}
+    
+  </body>
+  
+</html>
