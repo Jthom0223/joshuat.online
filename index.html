@@ -92,11 +92,11 @@
     <section class="section-padding-large">
         <div id="top" class="columns">
           <div class="column">
-            <h1 id="name" class="column"> 
-                {% for content in posts.homepage %}
+            {% for homepage in site.posts %}
+              <h1 id="name" class="column"> 
                   {{ content.name }}
-                {% endfor %}
-            </h1>
+              </h1>
+            {% endfor %}
             <a class="button center column is-2 is-rounded is-danger is-medium subheadwhite">
             <strong>See Portfolio</strong>
             </a>
