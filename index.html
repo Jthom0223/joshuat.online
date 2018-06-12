@@ -32,16 +32,14 @@
     <!--  This Site/App -->
     <title>Web 3 Starter</title>
     <link rel="stylesheet" href="css/styles.processed.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One" rel="stylesheet">
     
   
   <body>
     
-       <nav class="navbar is-info is-fixed-top">
+       <nav class="navbar is-dark is-fixed-top">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-          </a>
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <div class="navbar-burger burger has-dropdown is-hoverable" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
             <span></span>
@@ -59,7 +57,7 @@
             <a class="navbar-item" href="https://bulma.io/">
               Resume
               </a>
-            <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-item dropdown is-hoverable">
               <a class="navbar-link" href="/documentation/overview/start/">
                 Portfolio
               </a>
@@ -94,31 +92,48 @@
     <section class="section-padding-large">
         <div id="top" class="columns">
           <div class="column">
-            <h1 id="name" class="column is-4 is-offset-8">Hello, My name is Joshua Thomas.</h1>
-            <a class="button center column is-rounded is-offset-8 is-danger is-inverted is-rounded is-outlined has-text-weight-bold">
-				    See Portfolio
-			      </a>
+            <h1 id="name" class="column">  </h1>
+            <a class="button center column is-2 is-rounded is-danger is-medium subheadwhite">
+            <strong>See Portfolio</strong>
+            </a>
           </div>
         </div>
     </section>
-    
-    <div id="personal-info" class="columns">
+    <div class="has-text-centered pi headers">
+        <h1>Personal Info</h1>
+    </div>
+    <div id="personal-info" class="columns is-multiline">
       
-      <h1>Personal Info</h1>
-      <ul>
-        <li>Name: Joshua Thomas</li>
-        <li>Address: 1310 N Samantha Rd.</li>
-        <li>Phone Number: 509-270-0209</li>
-        <li>Email: jthomas31@eagles.ewu.edu</li>
-        <li>Favorite Color: Black, because it is most dominant and contains all other colors.</p>
+      <ul class="column is-4 is-offset-3">
+        <li><strong class="bodytext">Name:</strong> Joshua Thomas</li>
+        <li><strong class="bodytext">Address:</strong> 1310 N Samantha Rd</li>
+        <li><strong class="bodytext">Phone Number:</strong> 509-270-0209</li>
+        <li><strong class="bodytext">Email:</strong> jthomas31@eagles.ewu.edu</li>
+      </ul>
+      <ul class="column is-4">
+        <li><strong class="bodytext">Favorite Color:</strong> Black, because it is most dominant and contains all other colors.</p>
         <li>Twitter</li>
         <li>Facebook</li>
         <li>Instagram</li>
       </ul>
-    
+      <div class="column center socialmedia">
+        
+        <span class="icon">
+          <a href="#" class="smc"><i class="fab fa-twitter fa-2x"></i></a>
+        </span>
+        
+        <span class="icon">
+          <a href="#" class="smc"><i class="fab fa-instagram fa-2x"></i></a>
+        </span>
+        
+        <span class="icon">
+          <a href="#" class="smc"><i class="fab fa-facebook fa-2x"></i></a>
+        </span>
+        
+      </div>
     </div>
 
-    <section class="section center">
+    <section class="section center headers">
       <h1>Spotlight</h1>
     </section>
 
@@ -138,16 +153,16 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">EWU UX Program Site</p>
-              <p class="subtitle is-6">Eastern Washington University</p>
+              <p><a href="#" class="title is-4 headerspink">EWU UX Program Site</a></p>
+              <p class="subtitle is-6 subheadwhite">Eastern Washington University</p>
             </div>
           </div>
 
           <div class="content">
-            A more effective UI design that allows for UX students in the program to showcase their work, while also granting more info for perspective students.
-            <a href="#">#userinterfacedesign</a> <a href="#">#userexperience</a>
+            <p class="bodytext">A more effective UI design that allows for UX students in the program to showcase their work, while also granting more info for perspective students.</p>
+            <a href="#" class="subheadpink">#userinterfacedesign</a> <a href="#" class="subheadpink">#userexperience</a>
             <br>
-            <time datetime="2017-3-1">Mar 2018</time>
+            <time datetime="2017-3-1" class="bodytext">Mar 2018</time>
           </div>
         </div>
       </div>
@@ -166,16 +181,16 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Spokane City Guide</p>
-              <p class="subtitle is-6">Eastern Washington University</p>
+              <p><a href="#" class="title is-4 headerspink">Spokane City Guide</a></p>
+              <p class="subtitle is-6 subheadwhite">Eastern Washington University</p>
             </div>
           </div>
 
           <div class="content">
-            A city guide that sheds new light on the fair city of Spokane.
-            <a href="#">#graphicdesign</a> <a href="#">#thecityyoulovetohate</a>
+            <p class="bodytext">A city guide that sheds new light on the fair city of Spokane.</p>
+            <a href="#" class="subheadpink">#graphicdesign</a> <a href="#" class="subheadpink">#thecityyoulovetohate</a>
             <br>
-            <time datetime="2016-1-1">April 2018</time>
+            <time datetime="2016-1-1" class="bodytext">April 2018</time>
           </div>
         </div>
       </div>
@@ -194,17 +209,17 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">John Smith</p>
-              <p class="subtitle is-6">@johnsmith</p>
+              <p><a href="#" class="title is-4 headerspink">John Smith</a></p>
+              <p class="subtitle is-6 subheadwhite">@johnsmith</p>
             </div>
           </div>
 
           <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-            <a href="#">#css</a> <a href="#">#responsive</a>
+            <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus nec iaculis mauris.</p> <a class="subheadpink">@bulmaio</a>
+            <a href="#" class="subheadpink">#css</a> <a href="#" class="subheadpink">#responsive</a>
             <br>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            <time datetime="2016-1-1" class="subheadwhite">11:09 PM - 1 Jan 2016</time>
           </div>
         </div>
       </div>
@@ -216,10 +231,10 @@
    <footer class="footer">
       <div class="container">
         <div class="content has-text-centered">
-          <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          <p class="bodytext">
+            <strong>Bulma</strong> by <a href="https://jgthms.com" class="subheadpink">Jeremy Thomas</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php" class="subheadpink">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="subheadpink">CC BY NC SA 4.0</a>.
           </p>
         </div>
       </div>

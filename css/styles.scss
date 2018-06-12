@@ -23,36 +23,100 @@
 }
 
 // Your Styles
-
 html {
-  background: whitesmoke;
+  background: white;
 }
 
+.headers {
+  font-family: 'Fredoka One', cursive;
+  font-size: 6rem;
+}
+
+.icon {
+  margin: 20px;
+}
+
+.headerslight {
+  font-family: 'Fredoka One', cursive;
+  font-size: 6rem;
+  color: white;
+}
+
+.headerspink {
+  font-family: 'Fredoka One', cursive;
+  font-size: 6rem;
+  color: #ff3860;
+}
+
+.subheadpink {
+  font-family: 'Comfortaa', cursive;
+  color: #ff3860;
+}
+
+.subheadwhite {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+
+.bodytext {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+
+.bodytextdark {
+  font-family: 'Comfortaa', cursive;
+  color: #3B3B3B;
+}
+
+.footer {
+  background: #3B3B3B;
+  margin-top: 50px;
+}
+
+// Homepage
 #top {
-  background: lightgray;
+  background: darkgray;
   padding: 200px;
 }
 
 #name {
-  width: 200px;
+  width: 275px;
   font-family: 'Comfortaa', cursive;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   color: white;
+  margin: 0;
 }
 
-.button {
-  width: 10rem; 
-  border: 0.15em solid white;
+.pi {
+  color: white;
+  background:#3B3B3B;
+  padding-top: 10px;
 }
 
 #personal-info {
-  background: grey;
-  padding: 100px;
+  background: #3B3B3B;
+  padding: 50px 100px 20px 100px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.3rem;
+}
+
+.socialmedia {
+  margin-top: 50px;
+}
+
+.smc {
+  color: #ff3860;
 }
 
 #spotlight {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.card {
+    background: #3B3B3B;
 }
 
 // Resume
@@ -74,8 +138,29 @@ html {
 }
 
 // Contact Page
+.contactpull {
+  margin-bottom: 20px;
+  margin-top: -35px;
+  font-size: 1.9rem;
+}
+
+.contactinfo {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.fieldsbkg {
+  background: #3B3B3B;
+  padding-bottom: 50px;
+  margin-bottom: -50px;
+}
 
 .dm {
   width: 50%;
   margin-bottom: 10px;
+}
+
+.dmb {
+  background: #3B3B3B;
+  margin-top: 50px;
 }
