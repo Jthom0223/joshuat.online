@@ -1,6 +1,23 @@
 ---
-title: Post 4
+title: Home Page
 date: 2018-05-09 23:27:00 Z
+name: Hello, my name is Joshua Thomas.
+heading1: Personal Info
+heading2: Spotlight
+card1title: EWU UX Program Site
+card2title: Spokane City Guide
+card3title: Gonzaga University Billboard
+client1: Eastern Washington University
+client2: Gonzaga University
+card1content: A more effective UI design that allows for UX students in the program
+  to showcase their work, while also granting more info for perspective students.
+card2content: A city guide that sheds new light on the fair city of Spokane.
+card3content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+  iaculis mauris.
+card1date: March 2018
+card2date: April 2018
+card3date: June 2018
+image: 
 ---
 
 Post 4 Content
