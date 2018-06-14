@@ -48,34 +48,34 @@
 
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href="index.njk">
-              Home
+            <a class="navbar-item logo" href="index.html">
+              JT
             </a>
             <a class="navbar-item" href="/about/">
               About Me
             </a>
-            <a class="navbar-item" href="resume.html">
+            <a class="navbar-item" href="/resume/">
               Resume
               </a>
             <div class="navbar-item dropdown is-hoverable">
-              <a class="navbar-link" href="/documentation/overview/start/">
+              <a class="navbar-link" href="index.html">
                 Portfolio
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" href="/documentation/overview/start/">
+                <a class="navbar-item" href="/ux/">
                   UX/UI
                 </a>
                 <hr class="navbar-divider">
-                <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                <a class="navbar-item" href="/webdesign/">
                   Web Design
                 </a>
                 <hr class="navbar-divider">
-                <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                <a class="navbar-item" href="/graphicdesign/">
                   Graphic Design
                 </a>
               </div>
             </div>
-            <a class="navbar-item" href="https://bulma.io/">
+            <a class="navbar-item" href="contact.html">
               Contact
               </a>
           </div>
@@ -92,29 +92,25 @@
     <section class="section-padding-large">
         <div id="top" class="columns">
           <div class="column">
-             {% for homepage in site.pages %}
-              <h1 id="name" class="column"> 
-                  {{ content }}
-              </h1>
-             {% endfor %}
-            <a class="button center column is-2 is-rounded is-danger is-medium subheadwhite">
+            <h1 id="name" class="column lightspeed">Hello, my name is Joshua Thomas</h1>
+            <a href="/ux/" class="button center column is-2 is-rounded is-danger is-medium subheadwhite slideleft">
             <strong>See Portfolio</strong>
             </a>
           </div>
         </div>
     </section>
     <div class="has-text-centered pi headers">
-        <h1>Personal Info</h1>
+        <h1 class="slideright">Personal Info</h1>
     </div>
     <div id="personal-info" class="columns is-multiline">
       
-      <ul class="column is-4 is-offset-3">
+      <ul class="column is-4 is-offset-3 slideleft hide">
         <li><strong class="bodytext">Name:</strong> Joshua Thomas</li>
         <li><strong class="bodytext">Address:</strong> 1310 N Samantha Rd</li>
         <li><strong class="bodytext">Phone Number:</strong> 509-270-0209</li>
         <li><strong class="bodytext">Email:</strong> jthomas31@eagles.ewu.edu</li>
       </ul>
-      <ul class="column is-4">
+      <ul class="column is-4 slideright hide">
         <li><strong class="bodytext">Favorite Color:</strong> Black, because it is most dominant and contains all other colors.</p>
         <li>Twitter</li>
         <li>Facebook</li>
@@ -138,7 +134,7 @@
     </div>
 
     <section class="section center headers">
-      <h1>Spotlight</h1>
+      <h1 class="slideleft tada">Spotlight</h1>
     </section>
 
     <div id="spotlight" class="columns">
