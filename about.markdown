@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2018-04-25 23:38:00 Z
-image1: "/uploads/IMG_0355.jpg"
+image: "/uploads/IMG_0355-50cdad.jpg"
 layout: about
 ---
 
