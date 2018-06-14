@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2018-05-09 22:33:00 Z
+layout: contact
 ---
 
 # Call me, beep me, if ya wanna reach me.
