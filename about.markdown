@@ -1,6 +1,8 @@
 ---
 title: About
 date: 2018-06-14 22:21:00 Z
+image-1: "/uploads/kaseyandi.JPG"
+image-2: "/uploads/sideview.jpg"
 image: 
 layout: about
 ---
