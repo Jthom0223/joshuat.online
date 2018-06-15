@@ -7,4 +7,4 @@ address: 1310 N Samantha Rd (for the horse drawn carriage)
 layout: contact
 ---
 
-Call, text,send an email, beep, write a letter, or even send a message via horse drawn carraige. Whatever your method, here's the info you'll need to get a hold of me.
+Call, text, send an email, beep, write a letter, or even send a message via horse drawn carriage. Whatever your method, here's the info you'll need to get a hold of me.
