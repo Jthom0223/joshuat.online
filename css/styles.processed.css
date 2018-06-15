@@ -3324,7 +3324,6 @@ a.box:active {
 .input.is-inline,
 .textarea.is-inline {
   display: inline;
-  width: auto;
 }
 
 .input.is-rounded {
