@@ -98,14 +98,14 @@
 </section>
 
 <section class="container center ">
-  <p class="subtitle has-text-centered subheadpink contactpull slideleft hide dl1">Call, text,send an email, beep, write a letter, or even send a message via horse drawn carraige. Whatever your method, here's the info you'll need to get a hold of me.</p>
+  <p class="subtitle has-text-centered subheadpink contactpull slideleft hide dl1">{{ content }}</p>
 </section>
 
 <section class="container center has-text-centered">
       <ul class="column bodytextdark contactinfo">
-        <li class="tada2 dl2"><strong>Phone Number:</strong> 509-270-0209</li>
-        <li class="tada2 dl3"><strong>Email:</strong> jthomas31@eagles.ewu.edu</li>
-        <li class="tada2 dl4"><strong>Address: 1310 N Samantha Rd.</strong> (for the horse drawn carriage)</li>
+        <li class="tada2 dl2"><strong>Phone Number:</strong> {{ page.phone-number }}</li>
+        <li class="tada2 dl3"><strong>Email:</strong> {{ page.email }}</li>
+        <li class="tada2 dl4"><strong>Address:</strong> {{ page.address}}</li>
       </ul>
 </section>
 
