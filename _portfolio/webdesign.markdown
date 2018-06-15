@@ -12,7 +12,12 @@ mgdescription: Fun project that shows my love for gaming as well as css animatio
 mgimage: "/uploads/Screen%20Shot%202018-06-15%20at%209.36.01%20AM.png"
 mgclient: Eastern Washington University
 mgdate: December 2017
-Field name: 
+stname: Star Wars Movie Trailer Site
+stdescription: Movie trailer site for one of my favorite movies from the franchise.
+  Complete with the traditional crawling text from the movies.
+stimage: "/uploads/Screen%20Shot%202018-06-15%20at%2012.04.09%20PM.png"
+stclient: Eastern Washington University
+stdate: November 2017
 layout: webdesign
 ---
 
