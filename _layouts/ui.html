@@ -102,27 +102,27 @@
       <div class="card column is-one-third">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="{{ page.desktopimage }}" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                <img src="{{ page.desktopimage }}" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p><a class="title is-4 headerspink">EWU UX Progrm Site</a></p>
-              <p class="subtitle is-6 subheadwhite">Eastern Washington University</p>
+              <p><a class="title is-4 headerspink">{{ page.desktopname }}</a></p>
+              <p class="subtitle is-6 subheadwhite">{{ page.desktopclient }}</p>
             </div>
           </div>
 
           <div class="content">
-            <p class="bodytext">A more effective UI design that allows for UX students in the program to showcase their work, while also granting more info for perspective students.
+            <p class="bodytext">{{ page.desktopdescription }}
             <a href="#" class="subheadpink">#userinterfacedesign</a> <a href="#" class="subheadpink">#userexperience</a></p>
             <br>
-            <time datetime="2017-3-1" class="subheadwhite">Mar 2018</time>
+            <time datetime="2017-3-1" class="subheadwhite">{{ page.desktopdate }}</time>
           </div>
         </div>
       </div>
@@ -130,27 +130,27 @@
       <div class="card column is-one-third">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="{{ page.mobileimage }}" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                <img src="{{ page.mobileimage }}" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p><a class="title is-4 headerspink">Spokane CityGuide</a></p>
-              <p class="subtitle is-6 subheadwhite">Eastern Washington University</p>
+              <p><a class="title is-4 headerspink">{{ page.mobilename }}</a></p>
+              <p class="subtitle is-6 subheadwhite">{{ page.mobileclient }}</p>
             </div>
           </div>
 
           <div class="content">
-            <p class="bodytext">A city guide that sheds new light on the fair city of Spokane.
-            <a href="#" class="subheadpink">#graphicdesign</a> <a href="#" class="subheadpink">#thecityyoulovetohate</a></p>
+            <p class="bodytext">{{ page.mobiledescription }}
+            <a href="#" class="subheadpink">#userexperience</a> <a href="#" class="subheadpink">#ewux</a></p>
             <br>
-            <time datetime="2016-1-1" class="subheadwhite">April 2018</time>
+            <time datetime="2016-1-1" class="subheadwhite">{{ page.mobiledate }}</time>
           </div>
         </div>
       </div>
@@ -158,28 +158,27 @@
       <div class="card column is-one-third">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="{{ page.tabletimage }}" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                <img src="{{ page.tabletimage }}" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p><a class="title is-4 headerspink">John Smith</a></p>
-              <p class="subtitle is-6 subheadwhite">@johnsmith</p>
+              <p><a class="title is-4 headerspink">{{ page.tabletname }}</a></p>
+              <p class="subtitle is-6 subheadwhite">{{ page.tabletclient }}</p>
             </div>
           </div>
 
           <div class="content">
-            <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris. <a class="subheadpink">@bulmaio</a>.
-            <a href="#" class="subheadpink">#css</a> <a href="#" class="subheadpink">#responsive</a></p>
+            <p class="bodytext">{{ page.tabletdescription }} <a class="subheadpink">#tabletversion</a>.
+            <a href="#" class="subheadpink">#ewux</a> <a href="#" class="subheadpink">#userinterfacedesign</a></p>
             <br>
-            <time datetime="2016-1-1" class="subheadwhite">11:09 PM - 1 Jan 2016</time>
+            <time datetime="2016-1-1" class="subheadwhite">{{ page.tabletdate }}</time>
           </div>
         </div>
       </div>
@@ -188,28 +187,27 @@
       <div class="card column is-one-third">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="{{ page.pnwimage }}" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                <img src="{{ page.pnwimage }}" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p><a class="title is-4 headerspink">John Smith</a></p>
-              <p class="subtitle is-6 subheadwhite">@johnsmith</p>
+              <p><a class="title is-4 headerspink">{{ page.pnwname }}</a></p>
+              <p class="subtitle is-6 subheadwhite">{{ page.pnwclient }}</p>
             </div>
           </div>
 
           <div class="content">
-            <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris. <a class="subheadpink">@bulmaio</a>.
-            <a href="#" class="subheadpink">#css</a> <a href="#" class="subheadpink">#responsive</a></p>
+            <p class="bodytext">{{ page.pnwdescription }} <a class="subheadpink">#addeduserfriction</a>.
+            <a href="#" class="subheadpink">#alertsystem</a> <a href="#" class="subheadpink">#userexperience</a></p>
             <br>
-            <time datetime="2016-1-1" class="subheadwhite">11:09 PM - 1 Jan 2016</time>
+            <time datetime="2016-1-1" class="subheadwhite">{{ page.pnwdate }}</time>
           </div>
         </div>
       </div>
