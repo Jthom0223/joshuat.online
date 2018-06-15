@@ -39,6 +39,21 @@ onresponsibility1: Provided customer service
 onresponsibility2: Restocked sales floor
 onresponsibility3: Recovered sales floor
 onresponsibility4: Cashier
+bbname: Division I Men’s Basketball (Eastern Washington University)
+bbdate: Division I Men’s Basketball (Eastern Washington University)
+aucname: American Childhood Cancer Organization Inland Northwest Light the Way Dinner
+  Auction
+aucdate: April 2017
+aucdescription: Dinner Auction held at the Lincoln Center in downtown Spokane Washington
+  to raise money for childhood cancer (4 Volunteer Hours).
+aucresponsibility: Helped promote and sell auction items as well as help run auction
+  part of the dinner
+sponame: Special Olympics Track and Field Competition
+spodate: May 2017, 2018
+spodescription: Track and Field events for those with special needs and disabilities
+  held at the Eastern Washington University track (5 Volunteer Hours).
+sporesponsibility: Timed/set up events as well as helped lead competitors to their
+  events.
 layout: resume
 ---
 
