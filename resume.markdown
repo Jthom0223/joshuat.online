@@ -5,6 +5,17 @@ ba: Visual Communication Design
 minor: Business Administration
 certificates: User Experience
 graduation: 2019(spring)
+deca:
+- name: DECA Store
+- location: CVHS
+- date: 2018-01-01 00:00:00 Z
+- nameofposition: Marketing Lead
+- description: Marketing retail store that sells candy, food, clothing, and other
+    sundries, during lunch and school events. The store is used to help students learn
+    more about retail and business operations.
+- responsibility1: Marketing T-shirt Design
+- responsibility2: Cash Reconciliation
+- responsibility3: Sales at in-school retail location
 layout: resume
 ---
 
