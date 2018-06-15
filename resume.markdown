@@ -13,6 +13,22 @@ decadescription: Marketing retail store that sells candy, food, clothing, and ot
   sundries, during lunch and school events. The store is used to help students learn
   more about retail and business operations.
 decaresponsibility1: Marketing T-shirt Design
+decaresponsibility2: Cash Reconciliation
+decaresponsibility3: Sales at in-school retail location
+guname: Gonzaga University
+gulocation: Spokane, WA
+gudate: June 2017 - September 2017
+guposition: Graphic Design Intern
+gudescription: Private institution of higher education.
+guresponsibility1: Provided design concepts for different departments within the university
+guresponsibility2: Designed posters, schedules, wallpapers, magazines, billboards,
+  etc.
+guresponsibility3: Helped market different events within the institution and the community
+guresponsibility4: |-
+  Designed one of the most successful Billboard Season Ticket Advertisements for the fall sports
+  season
+guresponsibility5: Successfully designed the credential passes used for all personnel
+  involved in game day activities
 layout: resume
 ---
 
