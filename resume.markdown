@@ -29,6 +29,16 @@ guresponsibility4: |-
   season
 guresponsibility5: Successfully designed the credential passes used for all personnel
   involved in game day activities
+onname: Old Navy
+onlocation: Spokane Valley, WA
+ondate: March 2015 – Present
+onposition: Sales Associate
+ondescription: Specialty retailer offering clothing, accessories, and personal care
+  products.
+onresponsibility1: Provided customer service
+onresponsibility2: Restocked sales floor
+onresponsibility3: Recovered sales floor
+onresponsibility4: Cashier
 layout: resume
 ---
 
