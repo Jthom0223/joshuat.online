@@ -2,6 +2,9 @@
 title: Resume
 date: 2018-06-14 22:38:00 Z
 ba: Visual Communication Design
+minor: Business Administration
+certificates: User Experience
+graduation: 2019(spring)
 layout: resume
 ---
 
