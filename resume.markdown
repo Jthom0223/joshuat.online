@@ -6,6 +6,13 @@ minor: Business Administration
 certificates: User Experience
 graduation: 2019(spring)
 decaname: DECA Store
+decalocation: 'CVHS '
+decadate: January 2016
+decaposition: Marketing Lead
+decadescription: Marketing retail store that sells candy, food, clothing, and other
+  sundries, during lunch and school events. The store is used to help students learn
+  more about retail and business operations.
+decaresponsibility1: Marketing T-shirt Design
 layout: resume
 ---
 
