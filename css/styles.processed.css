@@ -10325,7 +10325,7 @@ html {
 }
 
 #top {
-  background: url(../img/trees.jpg);
+  background: url(../img/trees.jpg) no-repeat center center fixed;
   padding: 200px;
 }
 
