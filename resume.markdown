@@ -5,16 +5,18 @@ ba: Visual Communication Design
 minor: Business Administration
 certificates: User Experience
 graduation: 2019(spring)
-decaname: DECA Store
-decalocation: 'CVHS '
-decadate: January 2016
-decaposition: Marketing Lead
-decadescription: Marketing retail store that sells candy, food, clothing, and other
-  sundries, during lunch and school events. The store is used to help students learn
-  more about retail and business operations.
-decaresponsibility1: Marketing T-shirt Design
-decaresponsibility2: Cash Reconciliation
-decaresponsibility3: Sales at in-school retail location
+decaname: Itron Inc.
+decalocation: Liberty Lake, WA
+decadate: June 2018 - September 2018
+decaposition: UI/UX Intern
+decadescription: Energy, technology, and software company
+decaresponsibility1: Created principal UI and UX designs for multiple applications,
+  and designed graphics for status updates, data analysis, and energy consumption
+decaresponsibility2: Edited code and created graphics utilizing java script and CSS
+  to help make the implementation of graphics seamless for developers
+decaresponsibility3: Utilized design specifications and consistent branding concepts
+  within the wire frames I created to help evaluate and achieve proper consistency
+  across all applications
 guname: Gonzaga University
 gulocation: Spokane, WA
 gudate: June 2017 - September 2017
